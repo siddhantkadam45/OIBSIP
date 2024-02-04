@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="continer">
+        <div class="forheading">
+            <div>
+                <h1>Temperature Converter</h1>
+            </div>
+        </div>  
+        <div class="forselecting">
+            <label for="temperaturetype"><h3>Select the type of temperature you are entering</h3></label><br>
+            <select class="foroption"  name="temperaturecheckbox" id="temperaturetype">
+                <option   value="degreecelsius"> degree Celsius (°C) </option>
+                <option value="faharenheit">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+        </div>
+        <div class="inputbox">
+            <label for="entertemp">Enter ther temperature ::</label>
+            <input type="text" name="inputthetemperature" id="entertemp">
+        </div>
+        <div class="forconverter">
+            <label for="converter">Select the type for conversion of temperature</label>
+            <select class="forcnn"   name="converter" id="converter">
+                <option value="degreee">degree Celsius (°C)</option>
+                <option value="faharenhite">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <br>
+            <button class="forsubmitt">Submit</button>
+        </div>
+        <div class="display">
+            <div class="fordisplaying"></div>
+        </div>
+
+    </div> 
+</body>
+<script src="script.js"></script>
+<footer>  @copyright2024  siddhant kadam</footer>
+</html>
