@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhant's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Additional CSS styles */
+        .skills {
+            width: 70%;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .skills div {
+            text-align: center;
+            padding: 10px;
+            background: rgb(5,15,25);
+            background: linear-gradient(90deg, rgba(5,15,25,1) 0%, rgba(73,217,225,1) 37%, rgba(22,101,114,1) 81%);
+            border-radius: 10px;
+        }
+
+        .skills h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .work-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            padding-left: 15rem;
+            padding-right: 12rem;
+            margin-top: 20px;
+            
+        }
+
+        .work-item {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .work-item img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #contact {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+        }
+
+        #contact p {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #contact input,
+        #contact textarea,
+        #contact button {
+            width: 70%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #contact button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #contact button:hover {
+            background-color: #0056b3;
+        }
+        .imagestart{
+          border-radius: 2rem;
+        }
+         
+      
+        .main{
+          background: rgb(72,144,151);
+background: linear-gradient(90deg, rgba(72,144,151,1) 0%, rgba(84,132,189,1) 37%, rgba(30,77,90,1) 81%);
+          padding-left: 1rem;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+           <div class="formytitile">
+            <img src="logo.webp" alt="" class="imagestart">
+            <div class="heading">
+                <h2 style="color: red;">Hi, I'm Siddhant Kadam</h2>
+               
+                <h3>A Web Developer</h3>
+            </div>
+            
+           </div>
+
+            <div class="titlebar">
+                <div class="sidheading">SIDDHANT</div>
+                <div class="navsection">
+                    <nav>
+                        <a href="">Home</a>
+                        <a href="#aboutme">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#mywork">My Work</a>
+                        <a href="#contact">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div id="aboutme">
+            <h1>About Me</h1>
+            <p>Hello! Welcome to my portfolio! I'm a software developer proficient in Python, C++, and well-versed
+                in data structures and algorithms. Additionally, my expertise extends to web development using HTML, CSS, and JavaScript.
+                With a quick-learning mindset and a knack for teamwork, I excel in delivering top-notch results.
+                Explore my portfolio to see how my skills can contribute to your projects. Feel free to reach out.
+                Thank you!</p>
+        </div>
+
+        <div class="skills" id="skills">
+            <div>
+                <h1>Java</h1>
+                <p>Developing Software</p>
+            </div>
+            <div>
+                <h1>C++</h1>
+                <p>Developing Software</p>
+            </div>
+            <div>
+                <h1>Data Structures and Algorithms</h1>
+                <p>Developing Software</p>
+            </div>
+            <div>
+                <h1>HTML/CSS/JavaScript</h1>
+                <p>Developing Websites</p>
+            </div>
+        </div>
+
+        <div class="work-container" id="mywork">
+            <div class="work-item" id="sidbhai">
+                <img src="sss.png" alt="Work 1" >
+                <h2>Project 1</h2>
+                <p>Description of project 1.</p>
+                <button style="cursor:pointer">View Details</button>
+            </div>
+            <div class="work-item" id="sidbhai">
+                <img src="calc.png" alt="Work 2" >
+                <h2>Project 2</h2>
+                <p>Description of project 2.</p>
+                <button style="cursor: pointer;">View Details</button>
+            </div>
+          
+        </div>
+
+        <div class="forbottom">
+          <div id="contact">
+            <h1>Contact Me</h1>
+            <p>Email: siddhant9778@gmail.com</p>
+            <p>Phone: +9156545440877</p>
+            <form>
+                <input type="text" name="yourname" placeholder="Enter your Name" required><br>
+                <input type="email" name="email" placeholder="Enter your Email" required><br>
+                <textarea name="message" placeholder="Enter your message" required></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        </div>
+        
+    </div>
+
+    <footer id="ff">
+        <p>Copyright @Siddhant. Made by Siddhant Kadam.</p>
+    </footer>
+</body>
+
+</html>
